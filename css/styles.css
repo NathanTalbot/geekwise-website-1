@@ -38,7 +38,7 @@ body {
 
 .nav-list a:hover {
     text-decoration: none;
-    color: navy;
+    color: maroon;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -76,8 +76,28 @@ body {
     background-color: orange;
 }
 
+.footer div {
+    width: 33%;
+    float:  left;
+}
+
+.footer-input, .social, .copy {
+    display: block;
+    margin-top: 30px;
+}
+
+.footer-input input, .footer-input button {
+    display: inline-block;
+}
+
+input {
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
 .social {
     text-align: center;
+    font-size: 2em;
 }
 
 .copy {
